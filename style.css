@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(11, 7, 79);
+    color: white;
+    width: 20%;
+}
+.sidebar img{
+    width: 10rem;
+    margin-top: 2rem;
+}
+ul {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+li a {
+    display: block;
+    padding: 15px;
+    padding-bottom: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.SideIcon{
+    color: white;
+    padding-right: 7%;
+}
+/* Main Styling */
+.main{
+    background-color: rgb(215, 244, 250);
+    width: 100%;
+}
+.nav{
+    height: 10vh;
+    display: flex;
+    padding: 1% 0;
+    justify-content: flex-end;
+    background-color: white;
+}
+/* .searchContainer{
+    
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    margin-right: 4%;
+  }
+.SearchIcon{
+    font-size: 20px;
+    color: black;
+}
+.searchContainer input{
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+} */
+.searchContainer i {
+    position: absolute;
+}
+  
+.searchContainer {
+    width: 15%;
+    margin-bottom: 10px;
+    margin-right: 45px;
+}
+  
+.SearchIcon {
+    padding: 10px;
+    min-width: 40px;
+}
+  
+.searchBox{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.nav-content{
+   display: flex;
+   padding-right: 5%;
+}
+
+.image img{
+    width: 20px;
+    border: 3px solid rgb(47, 255, 50);
+    border-radius: 50%;
+    float: right;
+  
+}
+.nav-text{
+    padding-left: 8px;
+}
+.nav-text h5:nth-child(3){
+    color:rgb(47, 255, 50);
+}
+.last-icon{
+    padding-right: 2%;
+}
+.last-icon .fa{
+    color: red;
+}
+.summary{
+    background-color: white;
+    margin-top: 2%;
+    width: 97%;
+    margin-left: 2%;
+    height: 35vh;
+    border-radius: 10px;
+}
+.sum{
+    padding: 15px 0;
+    padding-left: 12px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    width: 8rem;
+    height: 7rem;
+    background-color: rgb(5, 5, 39);
+    border-radius: 10px;
+    color: white;
+    padding: 1% 1%;
+    
+}
+.box .fa{
+    float: right;
+   font-size: 20px;
+}
+.box h3{
+    color: rgb(0, 149, 255);
+    margin-top: 25%;
+}
+.box h2{
+    padding-top: 5px;
+    padding-bottom: 8px;
+}
+.box p{
+    font-size: 13px;
+}
+.profit{
+    color: rgb(37, 242, 5);
+}
+.third-section{
+    display: flex;
+}
+.recent{
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: white;
+    width: 60%;
+   border-radius: 10px;
+   padding-left: 2%;
+   height: 50vh;
+}
+.recent h2{
+    padding: 10px 0;
+}
+.recent table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+  .recent th, .recent td {
+    padding: 8px;
+    padding: 15px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  .product{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 2%;
+    height: 43vh;
+  }
+  .product h2{
+    padding: 10px 0;
+  }
+  .product table {
+    border-collapse: collapse;
+    width: 95%;
+    text-align: center;
+    
+  }
+  
+  .product th, .product td {
+    padding: 8px;
+  }
+  .product td:nth-child(2){
+    font-weight: bold;
+  }
+  /* Fourth Section Styling */
+  .fourth-section{
+    display: flex;
+    height: 70vh;
+  }
+  .vendor{
+    background-color: white;
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 5px;
+    padding-left: 2%;
+    height: 63vh;
+  }
+
+.vendor table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .vendor h2{
+    padding: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .vendor th, .vendor td {
+    padding: 8px;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  .vendor th{
+    border: none;
+  }
+  td img{
+    width: 20px;
+    border-radius: 50%;
+  }
+  td .fa{
+    padding-left: 5px;
+  }
+  .btn1{
+    color: black;
+    background-color: rgb(54, 255, 14);
+    padding: 2px;
+    border-color: rgb(54, 255, 14);
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  .btn2{
+    color: white;
+    background-color: rgb(209, 6, 6);
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: rgb(209, 6, 6);
+    border-radius: 5px;
+  }
+  .four{
+    background-color: white;
+    width: 30%;
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-left: 2%;
+    border-radius: 10px;
+    height: 63vh;
+  }
+  .grid-items{
+    text-align: center;
+    border: 1.5px dashed rgba(0, 0, 0, 0.8);
+    
+  }
+  .grid-items h2{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  .grid-items p{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(0, 149, 255);
+    padding-top: 10px;
+  }
+
+
